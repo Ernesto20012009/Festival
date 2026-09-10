@@ -1,0 +1,113 @@
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #071023 0%, #0f1724 100%);
+  color: #e6eef8;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+  text-align: center;
+}
+.tickets {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.ticket {
+  background: #fff;
+  color: #0b1220;
+  flex: 1 1 200px;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+.ticket .price {
+  font-size: 1.4rem;
+  margin: 8px 0;
+}
+.ticket .btn {
+  color: var(--bg);
+  border: none;
+  background: rgba(15, 23, 36, 0.04);
+}
+.ticket .btn:hover {
+  background: rgba(15, 23, 36, 0.08);
+}
+
+h1 {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-weight: 600;
+}
+
+h2, h3{
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-weight: 50px;
+    text-align: center;
+}
+
+.Artistas {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+/*. clase*/
+
+/*# div*/
+
+/* Contenedor principal de la sección (opcional, para alinear las cajas) */
+.Artistas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Caja individual para CADA artista */
+.Artistas2 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.1));
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  transition: transform .18s ease, box-shadow .18s ease;
+  
+  /* Para que las cajas tengan un tamaño uniforme */
+  flex: 1 1 250px; 
+  max-width: 300px;
+  text-align: center;
+}
+
+/* Efecto opcional para cuando pasas el mouse sobre la caja */
+.Artistas2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(130, 16, 88, 0.8);
+}
+
+/* Para que las imágenes de los artistas no se salgan de su caja */
+.Artistas2 img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+button {
+    background-color:rgb(186, 99, 160);
+    color: rgb(254, 255, 255);
+    border: 2px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size:30px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+button:active{
+    transform: scale(0.95);
+}
+#Titulo{
+    font-size: 100px;
+}
+#parrafo1{
+    font-size: 30px;
+}
